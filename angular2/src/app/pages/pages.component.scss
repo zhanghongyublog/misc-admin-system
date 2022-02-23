@@ -1,0 +1,30 @@
+:host {
+  .app-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    height: 7vh;
+    left: 0;
+    right: 0;
+    z-index: 1020;
+    padding: 0.75rem;
+    line-height: 1.25;
+
+    .logo {
+      width: 60px;
+      height: 70px;
+    }
+
+    .title {
+      flex: auto;
+      cursor: default;
+      margin-left: 1rem;
+      padding-top: 0.5rem;
+      font-weight: 600;
+      font-size: 1.5rem;
+    }
+  }
+
+}

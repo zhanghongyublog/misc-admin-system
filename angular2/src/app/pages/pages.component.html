@@ -1,0 +1,14 @@
+<nb-layout windowMode [center]="false">
+  <nb-layout-header fixed>
+    <div class="app-header">
+      <img class="logo" src="/assets/angular.svg" />
+      <div class="title"> Angular2 </div>
+    </div>
+  </nb-layout-header>
+  <nb-sidebar tag="menu-sidebar" [end]="false">
+    <nb-menu [items]="menu"></nb-menu>
+  </nb-sidebar>
+  <nb-layout-column>
+    <router-outlet></router-outlet>
+  </nb-layout-column>
+</nb-layout>
