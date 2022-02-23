@@ -1,0 +1,57 @@
+:host {
+  .app-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    height: 7vh;
+    left: 0;
+    right: 0;
+    z-index: 1020;
+    padding: 0.75rem;
+    line-height: 1.25;
+    color: #2a2a2a;
+    background: #fff;
+    box-shadow: 0 2px 12px 0 #dfe3eb;
+
+    .logo {
+      width: 60px;
+      height: 70px;
+    }
+
+    .title {
+      flex: auto;
+      cursor: default;
+      margin-left: 1rem;
+      padding-top: 0.5rem;
+      font-weight: 600;
+      font-size: 1.5rem;
+    }
+  }
+
+  .app-container {
+    position: fixed;
+    padding-top: 7vh;
+    padding-bottom: 3vh;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .app-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 3vh;
+    z-index: 800;
+    background-color: #fff;
+    border-top: 1px solid #ebeef2;
+    box-shadow: 0 2px 12px 0 #dfe3eb;
+    cursor: default;
+  }
+}
