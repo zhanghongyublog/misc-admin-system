@@ -1,2 +1,3 @@
-# tech-demo
-some demo for different technology
+# misc admin system
+Angular2
+Vue3
